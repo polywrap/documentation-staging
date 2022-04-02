@@ -1,0 +1,6 @@
+* [docker](https://docs.docker.com/)
+* [https://book.getfoundry.sh/](https://book.getfoundry.sh/)
+* [react](https://reactjs.org/docs/getting-started.html)
+* [Pocket Network](https://docs.pokt.network/home/)
+* [GraphQL](https://graphql.org/learn/)
+* [Apollo GraphQL](https://www.apollographql.com/docs/react/)
