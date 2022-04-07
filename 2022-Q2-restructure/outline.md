@@ -49,10 +49,17 @@
       * Meta Manifest
       * Content Restrictions
   6. Deploy
+      * Deploy to IPFS
+      * Deploy to Filecoin
       * IPFS
       * Fleek
       * Pinata
   7. Publish
+      * Publish IPFS hash to ENS
+      * Publish IPFS hash to Tezos domains
+      * Publish ENS domain to another DNS
+      * Publish Filecoin URI to Tezos
+      * Publish IPFS hash to Polywrap Registry
       * ENS
       * Hub
 
