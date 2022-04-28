@@ -13,7 +13,7 @@
 
 
 - How is the Hub built today (compilation of the technical architecture and architecture diagrams)
-> see: https://user-images.githubusercontent.com/1008882/161544640-6a7f535d-69a8-4512-b7dd-9dd0258f7b45.png
+> We built this to show you what's possible with the polywrap client. We are essentially leveraging the javascript polywrap client and a react web app to deploy wrappers to IPFS, pin them and also query them, all on the fly. To learn more go to [the repo](https://github.com/polywrap/hub)
 
 - Publishing on the hub (process overview, some screenshots and links)
 > TBD
