@@ -1,8 +1,18 @@
 # The Polywrap Client
 
-The Polywrap Client exists to help developers integrate Polywrap wrappers into their applications. It is used to query wrappers and plugins. The Client uses a URI to know which wrapper or plugin to interact with and where to find it.
+The Polywrap Client allows developers to integrate wrappers into their applications. Wrappers can be written as WebAssembly modules, or as plugins in any client supported language. Developers can call into any wrapper by simply knowing its URI. The developer experience is similar to interacting with a web service, but the magic is that it's all executing right within your application.
 
-The first Polywrap Client is written in JavaScript, with full TypeScript support. Future Polywrap Clients will be available in languages such as Rust, Python, and Java.
+## Supported Languages
+
+| Language | Support | Release | Source |
+| ------- | ------- | ------- | ------- | 
+| JavaScript | Live | [npm](https://www.npmjs.com/package/@web3api/client-js) | [GitHub](https://github.com/polywrap/monorepo/tree/prealpha/packages/js/client) |
+| Rust | TBD | N/A | N/A |
+| Python | TBD | N/A | N/A |
+| Go | TBD | N/A | N/A |
+| C# | TBD | N/A | N/A |
+| Java | TBD | N/A | N/A |
+| Swift | TBD | N/A | N/A |
 
 ## Installation and Instantiation
 
@@ -48,6 +58,8 @@ export interface UriRedirect<TUri = string> {
 
 ### Plugins
 
+Polywrap plugins are written in a Client’s native language. They offer a user experience similar to that of wrappers, but with different benefits.
+
 Plugins are declared and constructed in the Client config by providing an array of `PluginRegistration`. Each `PluginRegistration` contains the URI at which the plugin will be queried and a `PluginPackage`.
 
 ```typescript
@@ -70,7 +82,7 @@ export interface InterfaceImplementations<TUri = string> {
 
 ### Envs
 
-Because wrapper calls are sandboxed and stateless, they cannot access the global state that persists outside the call. Users can instead provide wrapper-specific environmental variables in the Client configuration.
+Because wrapper calls are sandboxed and stateless, they cannot access the global state that persists outside the call. Users can instead provide wrapper-specific environmental variables in the Client configuration. Wrapper developers are expected to inform users which environmental variables should be set for their API.
 
 ```typescript
 export interface Env<TUri = string> {
@@ -109,7 +121,7 @@ export abstract class UriResolver {
 
 ### Default Configuration
 
-The current default `ClientConfig` for the JavaScript implementation of the PolywrapClient can be viewed on [Github](https://github.com/polywrap/monorepo/blob/prealpha/packages/js/client/src/default-client-config.ts).
+The current default `ClientConfig` for the JavaScript implementation of the PolywrapClient can be viewed on [Github](https://github.com/polywrap/monorepo/blob/prealpha/packages/js/client/src/default-client-config.ts). When a user provides a `ClientConfig` to the Client, the default configuration is still applied but is modified by the user's configuration.
 
 ## Sanitization
 
