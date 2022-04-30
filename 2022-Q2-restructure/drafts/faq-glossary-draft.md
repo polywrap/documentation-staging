@@ -5,6 +5,11 @@
 - What are all of the basetypes supported by polywrap?
 > check if this is still correct : https://github.com/polywrap/monorepo/tree/prealpha/packages/schema/bind
 
+- How can I create Polywrap "Schema types"?
+> TODO: use this guide as reference https://www.assemblyscript.org/types.html
+
+- Why do I need to run Docker?
+> todo
 
 - What are the number types supported by polywrap?
 > The number types you can use are:
@@ -42,6 +47,8 @@
 - How can I run a polywrap environment locally? 
 
 - How can I join the Polywrap DAO?
+> add a [link](#) to the handbook
+
 - What are the minihacks?
 - Are there any job opportunities available in polywrap?
 - I have a proposal for potential partnership / opportunity, who should I contact?
