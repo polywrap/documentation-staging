@@ -3,6 +3,8 @@
 ## Introduction
 
 ## Quick Start:
+High-level guides that help developers hit the ground running. These should be able to be used by all types of developers to get started right away, and link to external documentation if devs want to dive deeper.
+
 ### Try Existing Wrappers
   * Hub
   * CLI
@@ -92,6 +94,8 @@
   3. Implementation
 
 ## Concepts
+Underlying concepts that are necessary to understand the why/what/how of Polywrap. These should hopefully give enough context so that readers can go from here straight into any of the other sections (quick start, reference, standards).
+
 ### WRAP Protocol
   ...
 
@@ -115,3 +119,22 @@
 
 ### Hub
 [concepts/hub.md](./concepts/hub.md)  
+
+## Demos
+Glossary of existing demos (apps & wrappers) for readers to look through.
+
+## Reference
+This will be the most "low level" documentation, most of which can hopefully be automated to some degree. We will detail the ins-and-outs of our various tools (cli, client, etc), file formats (manifests, etc), and various technical specifications Polywrap makes use of (WebAssembly, WRAP, etc) 
+
+### CLI
+...
+
+### Clients
+...
+
+### Manifests
+...
+
+### Specifications
+...
+
