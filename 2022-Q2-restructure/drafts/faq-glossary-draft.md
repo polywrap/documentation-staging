@@ -55,6 +55,30 @@
 > Please include all details on an email to hello@polywrap.io. Be as descriptive as possible, add links and validation for the DAO to consider your proposal.
 
 
+How can i join the Polywrap DAO?
+
+> The Polywrap DAO is open to anyone who wishes to join. There is no membership fee.
+
+What is the polywrap toolchain?
+
+> The polywrap toolchain is a set of tools that allow developers to create and deploy decentralized applications (DApps) on the Polywrap network. The toolchain includes a compiler, a virtual machine, and a set of libraries.
+
+What is the polywrap virtual machine?
+
+> The polywrap virtual machine is a runtime environment for executing decentralized applications (DApps) on the Polywrap network. The virtual machine is responsible for managing the execution of DApps, and providing a secure and reliable environment for them to run.
+
+What is the polywrap compiler?
+
+> The polywrap compiler is a tool that allows developers to compile their decentralized applications (DApps) into bytecode that can be executed by the polywrap virtual
+
+What are URIs?
+
+> A URI is a Uniform Resource Identifier. URIs are used to identify resources on the internet. In the context of the Polywrap network, URIs are used to identify decentralized applications (DApps). 
+
+Why does polywrap use GraphQL? 
+
+> GraphQL is a query language that allows developers to specify the data that they need from a server. GraphQL is used by the Polywrap network to allow developers to query the data that is stored on the network.
+
 
 - Glossary
     - WRAP Standard
